@@ -1,6 +1,7 @@
 def main(num1, num2):
     """
-    Given two non-negative integers, num1 and num2 represented as string.
+    Given two non-negative integers,
+     num1 and num2 represented as string.
     Return the sum of num1 and num2 as a string.
 
     Args:
@@ -9,4 +10,11 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    number1 = int(num1)
+    number2 = int(num2)
+    number3 = number1 + number2
+
+    return str(number3)
+
+
+print(main('12', '51'))
